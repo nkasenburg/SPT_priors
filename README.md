@@ -1,6 +1,6 @@
 # Shortest-path tractography (SPT) with spatial priors
 
-**Authors:** Niklas Kasenburg, Silas N. Orting
+**Authors:** Niklas Kasenburg, Silas N. Ørting
 
 ## Description
 

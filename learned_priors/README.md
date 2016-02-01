@@ -1,6 +1,6 @@
 ## Learned priors
 
-**Authors:** Niklas Kasenburg,
+**Author:** Niklas Kasenburg,
 
 ### Description
 

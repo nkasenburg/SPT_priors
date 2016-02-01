@@ -52,6 +52,10 @@ The following 38 HCP subjects were used to create the data:
 - 672756
 - 792564
 
+### Acknowledgements
+
+Data were provided by the Human Connectome Project, WU-Minn Consortium (Principal Investigators: David Van Essen and Kamil Ugurbil; 1U54MH091657) funded by the 16 NIH Institutes and Centers that support the NIH Blueprint for Neuroscience Research; and by the McDonnell Center for Systems Neuroscience at Washington University.
+
 ### References
 
 [1] D. C. V. Essen, S. M. Smith, D. M. Barch, T. E. J. Behrens, E. Yacoub and K. Ugurbil for the WU-Minn HCP Consortium, [The WU-Minn Human Connectome Project: An overview.](http://dx.doi.org/10.1016/j.neuroimage.2013.05.041) *NeuroImage* 80: 62–79 (Oct 2013)

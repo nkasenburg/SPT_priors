@@ -59,7 +59,8 @@ The following 38 HCP subjects were used to create the data:
 [2] M. F. Glasser, S. N. Sotiropoulos, J. A. Wilson, T. S. Coalson, B. Fischl, J. L. Andersson, J. Xu, S. Jbabdi, M. Webster, J. R. Polimeni, D. C. V. Essen and M. Jenkinson for the WU-Minn HCP Consortium, [The minimal preprocessing pipelines for the Human
 Connectome Project.](http://dx.doi.org/10.1016/j.neuroimage.2013.04.127) *NeuroImage* 80:105–124 (Oct 2013)
 
-[3] M.T. de Schotten, D. H. Ffytche, A. Bizzi, F. Dell’Acqua, M. Allin, M. Walshe, R. Murray, S. C. Williams, D. G. M. Murphy, M. Catani, [Atlasing location, asymmetry and inter-subject variability of white matter tracts in the human brain with MR diffusiontractography.](http://dx.doi.org/10.1016/j.neuroimage.2010.07.055) *NeuroImage* 54(1):49–59 Jan 2011.
+[3] N. Kasenburg, M. Liptrot, N. L. Reislew, S. N. Ørting, M. Nielsen, E. Garde, and A. Feragen, [Training shortest-path tractography: Automatic learning of spatial priors.](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031) *NeuroImage* (2016).
 
-[4] A. Varentsova, S. Zhang, K. Arfanakis, [Development of a high angular resolution diffusion imaging human brain template.](http://dx.doi.org/10.1016/j.neuroimage.2014.01.009), *NeuroImage* 91:177–186 (May 2014).
+[4] M.T. de Schotten, D. H. Ffytche, A. Bizzi, F. Dell’Acqua, M. Allin, M. Walshe, R. Murray, S. C. Williams, D. G. M. Murphy and M. Catani, [Atlasing location, asymmetry and inter-subject variability of white matter tracts in the human brain with MR diffusiontractography.](http://dx.doi.org/10.1016/j.neuroimage.2010.07.055) *NeuroImage* 54(1):49–59 (Jan 2011).
 
+[5] A. Varentsova, S. Zhang and K. Arfanakis, [Development of a high angular resolution diffusion imaging human brain template.](http://dx.doi.org/10.1016/j.neuroimage.2014.01.009), *NeuroImage* 91:177–186 (May 2014).

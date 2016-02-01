@@ -4,7 +4,7 @@
 
 ### Description
 
-This folder contains the learned priors created from shortest-path tractography (SPT) results on data provided by the Human Connectome Project (HCP) [1,2]. Creation and application of the learned priors is described in detail in [Kasenburg *et al.* (2016)](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031). In the following there is a brief overview of the priors included in this folder:
+This folder contains the learned priors created from shortest-path tractography (SPT) results on data provided by the Human Connectome Project (HCP) [1,2] as Nifti files in MNI standard space. Creation and application of the learned priors is described in detail in [Kasenburg *et al.* (2016)](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031). In the following there is a brief overview of the priors included in this folder:
 - Cortico spinal tract (CST): The learned prior was created from tractography results that included a subject-specific white matter prior, as described in [3].
 - Arcuate fasciculus (AF): The learned prior was created from tractography results that included a subject-specific white matter prior, as described in [3].
 - Inferior fronto-occipital fasciculus (IFOF): The learned prior was created from tractography results that included a subject-specific white matter prior and two waypoint priors (occipital lobe and external capsule), as described in [3].

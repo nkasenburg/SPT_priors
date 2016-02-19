@@ -144,21 +144,19 @@ namespace BrainGraph {
     bool
     save_binary(std::string path) const;
 
-    
     /**
      * Calculate the importance of the node in the ROItoROI.
      * The number of times a node is used in a path in the ROItoROI is
      * node.properties["count"]
      * The relative weight of a node is stored in
-     * node.properties["weight"]
+     * node.properties["confidence"]
      */ 
     void
     calculate_node_importance(BrainGraph::ROItoROI r2r,    ///< ROItoROI used to calculate importance
-			      std::string property_to_use_as_weight="prob",        ///< Key of node property to use as weight
-			      std::string property_to_store_count_in="count",      ///< Key of node property to store count in
-			      std::string property_to_store_importance_in="weight" ///< Key of node property to store importance in
+			      std::string property_to_use_as_weight="prior",           ///< Key of node property to use as prior
+			      std::string property_to_store_count_in="count",          ///< Key of node property to store count in
+			      std::string property_to_store_importance_in="confidence" ///< Key of node property to store confidence in
 			      );
-
 
     /**
      * Uses nodes position property to arrange nodes in a 3D matrix.
@@ -176,7 +174,7 @@ namespace BrainGraph {
     as_matrix(id_type rows,    ///< Number of rows in matrix
 	      id_type columns, ///< Number of columns in matrix
 	      id_type slices,  ///< Number of slices in matrix
-	      std::string property_to_use_as_weight="prob",      ///< Key of node property to use as weight
+	      std::string property_to_use_as_weight="confidence",      ///< Key of node property to use as confidence
 	      std::string property_to_use_as_position="position" ///< Key of node property to use as position
 	      ) const;
     

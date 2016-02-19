@@ -54,7 +54,6 @@ namespace BrainGraph {
   typedef boost::heap::compare<CompareNode> compare_t;
   typedef boost::heap::fibonacci_heap<node_t*, compare_t> priority_queue;
   typedef priority_queue::handle_type handle_t;
-  typedef std::map<int, std::vector<int> > IntListMap;
 
   /**
    * Calculates the single source shortest path, from source to AT LEAST all 

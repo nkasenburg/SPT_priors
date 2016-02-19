@@ -72,8 +72,9 @@ namespace BrainGraph {
     ROItoROI::InnerMap paths;
     //create target mask
 	std::vector<bool> target_mask(graph.no_of_nodes());
+	// Verify all are false
 	assert(std::none_of(target_mask.begin(), target_mask.end(),
-    			GeneralFunctions::id<bool>)); // Verify all are false
+    	   GeneralFunctions::id<bool>));
     for (auto target : targets) { target_mask[target] = true; }
     //run Dijsktra for source
     auto shortest_paths = single_source_shortest_path(graph, source, target_mask);

@@ -16,7 +16,7 @@ OBJECTS = $(LOCAL_LIB_DIR)/Dijkstra.o\
 	  $(LOCAL_LIB_DIR)/Graph.o\
 	  RCSP_wrap.o
 
-.PHONY: python_binding zip
+.PHONY: python_binding
 
 python_binding: _RCSP.so
 

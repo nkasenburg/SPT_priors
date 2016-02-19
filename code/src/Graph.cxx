@@ -12,27 +12,27 @@
 namespace BrainGraph {
 
   void Graph::calculate_node_importance(BrainGraph::ROItoROI r2r,
-				   std::string weight,
+				   std::string prior,
 				   std::string count,
-				   std::string importance) {
-    // Reset all count and importance to 0
+				   std::string confidence) {
+    // Reset all count and confidence to 0
     for (auto& node : this->nodes_) {
       node.properties[count] = Property(0);
-      node.properties[importance] = Property(0);
+      node.properties[confidence] = Property(0);
     }
     double num_of_paths = 0;
     for (auto path : r2r) {
       ++num_of_paths;
       double length = path.size() - 1.;
       if(length > 0){
-    	  auto node_0_weight = std::log(std::sqrt(this->node(path[0].id).properties[weight][0]));
-    	  auto node_n_weight = std::log(std::sqrt(this->node(path.back().id).properties[weight][0]));
+    	  auto node_0_weight = std::log(std::sqrt(this->node(path[0].id).properties[prior][0]));
+    	  auto node_n_weight = std::log(std::sqrt(this->node(path.back().id).properties[prior][0]));
     	  auto distance = path.back().weight - node_0_weight - node_n_weight;
-    	  auto avg_length = std::exp(-(distance/length));
+    	  auto score = std::exp(-(distance/length));
     	  for (auto d_node : path) {
     		  auto& node = this->node(d_node.id);
     		  node.properties[count][0] += 1;
-    		  node.properties[importance][0] += avg_length;
+    		  node.properties[confidence][0] += score;
     	  }
       }
     }

@@ -61,7 +61,7 @@ $(APP_DIR)/%.o: $(APP_DIR)/%.cxx
 
 zip:
 	zip $(PYTHON_DIR)/_RCSP.so $(PYTHON_DIR)/RCSP.py \
-	shortest_path_bg.py brain_graph_sample.py utils.py
+	sspt.py brain_graph.py utils.py
 
 clean:
 	rm -f $(OBJECTS) $(RCSP)

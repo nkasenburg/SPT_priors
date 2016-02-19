@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains the implementation of the shortest-path tractography framework published by [Kasenburg *et al.* (2016)](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031). In addition to the code (in [insert folder]), it also contains the priors created from the Human Connectome Project (HCP) data [1,2]. Priors were created from 38 subjects for four different tracts: arcuate fasciculus (AF), cortico spinal tract (CST), inferior fronto-occipital fasciculus (IFOF) and fornix. More details about the code and the priors can be found the in corresponding `readme.txt` in [insert folder] and [insert folder] respectively.   
+This repository contains the implementation of the shortest-path tractography framework published by [Kasenburg *et al.* (2016)](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031). In addition to the code (in `code`), it also contains the learned spatial priors created from the Human Connectome Project (HCP) data [1,2] using shortest-path tractography. Priors were created from 38 subjects for four different tracts: arcuate fasciculus (AF), cortico spinal tract (CST), inferior fronto-occipital fasciculus (IFOF) and the fornix. More details about the code and the priors can be found the in corresponding `README.md` in the folder `code` and `learned priors` respectively.   
 
 ## References
 

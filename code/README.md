@@ -6,7 +6,7 @@
 
 This folder contains the implementation of the shortest-path tractography framework published by [Kasenburg *et al.* (2016)](http://dx.doi.org/10.1016/j.neuroimage.2016.01.031) and code required to produce the inputs for the SPT method.
 The folder [python](https://github.com/nkasenburg/SPT_priors/tree/master/code/python) contains all necessary python scripts to run the code. 
-However, since the shortest-path computation is implemented in C++ for runtime improvement, it needs to be compiled to produce the binary files and the pyhton-binding (`RCSP.py`, see also [Compiling the C++ code](https://github.com/nkasenburg/SPT_priors/tree/master/code/README.md#Compiling the C++ code)).
+However, since the shortest-path computation is implemented in C++ for runtime improvement, it needs to be compiled to produce the binary files and the pyhton-binding (`RCSP.py`, see also [Compiling the C++ code](https://github.com/nkasenburg/SPT_priors/tree/master/code#compiling-the-c-code)).
 The compiled version contained here should work with any Linux OS, but you need to recompile the code for other operating systems.
 
 ## Requirements
@@ -19,7 +19,7 @@ To be able to run the code you need to have the following python packages instal
 
 ## Compiling the C++ code
 
-The C++ code can be compiled using the Makefile in this directory (it will both compile the C++ code in `src` and the corresponding python bindings).
+The C++ code can be compiled using the Makefile in this directory (it will both compile the C++ code in [src](https://github.com/nkasenburg/SPT_priors/tree/master/code/src) and the corresponding python bindings).
 Make sure to first run `make clean` to remove the existing binary files before running `make` to compile the code.
 To be able to compile the code you must have a version of the [Boost library](http://www.boost.org/) installed on your machine.
 
